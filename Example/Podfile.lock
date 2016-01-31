@@ -1,0 +1,14 @@
+PODS:
+  - SZLoadingTableViewController (0.1.0)
+
+DEPENDENCIES:
+  - SZLoadingTableViewController (from `../`)
+
+EXTERNAL SOURCES:
+  SZLoadingTableViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SZLoadingTableViewController: 43f4197ac5debf8566745ce4e721b343b083ad80
+
+COCOAPODS: 0.38.2
