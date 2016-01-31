@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SZLoadingTableViewController_Example', :exclusive => true do
+  pod 'SZLoadingTableViewController', :path => '../'
+end
+
+target 'SZLoadingTableViewController_Tests', :exclusive => true do
+  pod 'SZLoadingTableViewController', :path => '../'
+
+  
+end
