@@ -7,7 +7,7 @@
 //
 
 @import UIKit;
+@import SZLoadingTableViewController;
 
-@interface SZViewController : UIViewController
-
+@interface SZDemoViewController : SZLoadingTableViewController
 @end

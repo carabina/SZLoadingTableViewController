@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrC-FS-cL9">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="275" y="285" width="51" height="30"/>
+                                <state key="normal" title="Tap me"/>
                                 <connections>
                                     <segue destination="vbk-RS-jLb" kind="show" id="fqY-3C-jf1">
                                         <nil key="action"/>
@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="1208" y="398"/>
         </scene>
-        <!--Deatail Table View Controller-->
+        <!--Demo View Controller-->
         <scene sceneID="0eh-3Y-dq9">
             <objects>
-                <tableViewController id="vbk-RS-jLb" customClass="DeatailTableViewController" sceneMemberID="viewController">
+                <tableViewController id="vbk-RS-jLb" customClass="SZDemoViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bsH-l4-hXa">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

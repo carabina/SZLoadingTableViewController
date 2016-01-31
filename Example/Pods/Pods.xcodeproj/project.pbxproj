@@ -24,21 +24,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57EB7440398045A4308241EE1EC7414A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3514C36C91929307CF3C4C15DFA866A;
-			remoteInfo = SZLoadingTableViewController;
-		};
-		D9D3E256794C2A18E464144295685607 /* PBXContainerItemProxy */ = {
+		4F5163638B4F3EC94125A53BB67E8B1D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D6301C40C99A25F6EA525AC6A3ADED43;
 			remoteInfo = "SZLoadingTableViewController-SZLoadingTableViewController";
 		};
-		E4D6BCA9F578ADC01F5296ABDC051EAC /* PBXContainerItemProxy */ = {
+		BFA549B1CA94233596AC0097E11D9F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3514C36C91929307CF3C4C15DFA866A;
+			remoteInfo = SZLoadingTableViewController;
+		};
+		DD3A21A31C76BC9A413F0982F3261380 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -300,7 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1D3AD9E620987D32C9403A6449B83D85 /* PBXTargetDependency */,
+				2C03A4428E4A2F8D09BA7EA4FA9E689B /* PBXTargetDependency */,
 			);
 			name = "Pods-SZLoadingTableViewController_Example";
 			productName = "Pods-SZLoadingTableViewController_Example";
@@ -319,7 +319,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CB2A88ABBC3B1EE59869D8ACAD6BE452 /* PBXTargetDependency */,
+				C252440510FB49021B4CBA4D96E47287 /* PBXTargetDependency */,
 			);
 			name = SZLoadingTableViewController;
 			productName = SZLoadingTableViewController;
@@ -354,7 +354,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				980FB40ADD972F07C2D045F56C20A4E2 /* PBXTargetDependency */,
+				A4886390B9289262546D43E7C0968995 /* PBXTargetDependency */,
 			);
 			name = "Pods-SZLoadingTableViewController_Tests";
 			productName = "Pods-SZLoadingTableViewController_Tests";
@@ -445,23 +445,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D3AD9E620987D32C9403A6449B83D85 /* PBXTargetDependency */ = {
+		2C03A4428E4A2F8D09BA7EA4FA9E689B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SZLoadingTableViewController;
 			target = D3514C36C91929307CF3C4C15DFA866A /* SZLoadingTableViewController */;
-			targetProxy = E4D6BCA9F578ADC01F5296ABDC051EAC /* PBXContainerItemProxy */;
+			targetProxy = BFA549B1CA94233596AC0097E11D9F6C /* PBXContainerItemProxy */;
 		};
-		980FB40ADD972F07C2D045F56C20A4E2 /* PBXTargetDependency */ = {
+		A4886390B9289262546D43E7C0968995 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SZLoadingTableViewController;
 			target = D3514C36C91929307CF3C4C15DFA866A /* SZLoadingTableViewController */;
-			targetProxy = 57EB7440398045A4308241EE1EC7414A /* PBXContainerItemProxy */;
+			targetProxy = DD3A21A31C76BC9A413F0982F3261380 /* PBXContainerItemProxy */;
 		};
-		CB2A88ABBC3B1EE59869D8ACAD6BE452 /* PBXTargetDependency */ = {
+		C252440510FB49021B4CBA4D96E47287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SZLoadingTableViewController-SZLoadingTableViewController";
 			target = D6301C40C99A25F6EA525AC6A3ADED43 /* SZLoadingTableViewController-SZLoadingTableViewController */;
-			targetProxy = D9D3E256794C2A18E464144295685607 /* PBXContainerItemProxy */;
+			targetProxy = 4F5163638B4F3EC94125A53BB67E8B1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

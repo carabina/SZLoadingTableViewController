@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25FCD2C0930BD2AD9F9782CE"
+               BlueprintIdentifier = "CC26FB1CE10967D983783BF3"
                BuildableName = "SZLoadingTableViewController.framework"
                BlueprintName = "SZLoadingTableViewController"
                ReferencedContainer = "container:Pods.xcodeproj">
