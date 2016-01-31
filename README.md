@@ -1,9 +1,6 @@
 # SZLoadingTableViewController
 
-[![CI Status](http://img.shields.io/travis/Suric Zhang/SZLoadingTableViewController.svg?style=flat)](https://travis-ci.org/Suric Zhang/SZLoadingTableViewController)
-[![Version](https://img.shields.io/cocoapods/v/SZLoadingTableViewController.svg?style=flat)](http://cocoapods.org/pods/SZLoadingTableViewController)
-[![License](https://img.shields.io/cocoapods/l/SZLoadingTableViewController.svg?style=flat)](http://cocoapods.org/pods/SZLoadingTableViewController)
-[![Platform](https://img.shields.io/cocoapods/p/SZLoadingTableViewController.svg?style=flat)](http://cocoapods.org/pods/SZLoadingTableViewController)
+![](https://github.com/zhangxiaolian1991/SZLoadingTableViewController/blob/master/Example/SZLoadingTableViewController/Files/demo.gif)
 
 ## Usage
 
