@@ -7,63 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1428E8455EE1543E67241A11EC669AFC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9A7B576CDEB1649471A1EF6D2109E /* ReplaceMe.m */; };
+		03A6E9A9642D2C9AC5FBF4C120E646BF /* SZLoadingTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AB08266556B3CB4631C5310AE05B48 /* SZLoadingTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3756425A80564401FAA41DB0B204078C /* Pods-SZLoadingTableViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7EB93DAF6C092596E26FE8305028F2 /* Pods-SZLoadingTableViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F32223EFFFF4B53F25A1397EE30C8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859AB0F17226FAE218AD23B642BCF7F9 /* Foundation.framework */; };
+		3DE5DB6D3B231762318E14FD3E806E59 /* SZLoadingTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02187BC8D749DF0D5D7ED881D829632D /* SZLoadingTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7C47F8E7207CFA20B55C460602EAF8 /* SZFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C06D6C5CB8E057CA74020A1A8DD5B6 /* SZFooterView.m */; };
+		4F32223EFFFF4B53F25A1397EE30C8B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474A43769F0A22159C3E757D9EE41497 /* Foundation.framework */; };
 		79D9F22523D1D8F0474F8008ADC26709 /* Pods-SZLoadingTableViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD18EC08F8132401A5631CA4DA95DAE /* Pods-SZLoadingTableViewController_Tests-dummy.m */; };
-		88B59FD201B4F5B3BF81BF49CFC70A41 /* SZLoadingTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2577879F654F3580C2C4C00093E57A /* SZLoadingTableViewController-dummy.m */; };
 		8A0D2A6334F292F148E0A15B923E0B99 /* Pods-SZLoadingTableViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53014771271F5ABD301F155E3A7A17CA /* Pods-SZLoadingTableViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B67270DA253AAE86BC35944382790F5 /* SZLoadingTableViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 298C39ECB130D0160B4777B8B2E1B13C /* SZLoadingTableViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B670A81FEEE15D9F0A77D8553420A2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859AB0F17226FAE218AD23B642BCF7F9 /* Foundation.framework */; };
-		D78992137C83EBD4F5F5420D7F61B7F9 /* SZLoadingTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A42C2AE518B2BDCE1913552BCDA70153 /* SZLoadingTableViewController.bundle */; };
-		D83A83B82FF8BAC5081D1808997B088C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859AB0F17226FAE218AD23B642BCF7F9 /* Foundation.framework */; };
+		B670A81FEEE15D9F0A77D8553420A2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474A43769F0A22159C3E757D9EE41497 /* Foundation.framework */; };
+		C4DF9C44B887B6B6B9409709C4BF3B44 /* SZFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E5FC8FF40901EA06A40E25E4DEB879 /* SZFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86FCFC59727D9DF40CF0FAD231DD06E /* SZLoadingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97B068A2B131B89892749A5CDA9E3E0 /* SZLoadingTableViewController.m */; };
+		DD92298E2B127366F252F89318821C8D /* SZLoadingTableViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A42C2AE518B2BDCE1913552BCDA70153 /* SZLoadingTableViewController.bundle */; };
+		E1764EFBE6A712E57DF05F11AA64EE95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474A43769F0A22159C3E757D9EE41497 /* Foundation.framework */; };
+		E6525F496FB3532D841B6D39ACA53FEB /* SZLoadingTableViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CB3C9C3D0D6B3FECF57D6430CADCEE /* SZLoadingTableViewController-dummy.m */; };
 		ECC5C083C1B2A221630DA5352ABC2A96 /* Pods-SZLoadingTableViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3826BA503FE3215737B1551B8D0F956 /* Pods-SZLoadingTableViewController_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		19FD5A7A4505667945A68E78F0A36870 /* PBXContainerItemProxy */ = {
+		57EB7440398045A4308241EE1EC7414A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3514C36C91929307CF3C4C15DFA866A;
+			remoteInfo = SZLoadingTableViewController;
+		};
+		D9D3E256794C2A18E464144295685607 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D6301C40C99A25F6EA525AC6A3ADED43;
 			remoteInfo = "SZLoadingTableViewController-SZLoadingTableViewController";
 		};
-		7724C2D5B9411AAD053A9AF0719C4972 /* PBXContainerItemProxy */ = {
+		E4D6BCA9F578ADC01F5296ABDC051EAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7B9043E151DD42C6327BBFB81D989BC7;
-			remoteInfo = SZLoadingTableViewController;
-		};
-		8DADF27807539F0E39D3A46061E1AA39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B9043E151DD42C6327BBFB81D989BC7;
+			remoteGlobalIDString = D3514C36C91929307CF3C4C15DFA866A;
 			remoteInfo = SZLoadingTableViewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02187BC8D749DF0D5D7ED881D829632D /* SZLoadingTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZLoadingTableViewController-umbrella.h"; sourceTree = "<group>"; };
 		139A96BE2B0196C8DECCAA5DDFE1D61D /* Pods-SZLoadingTableViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SZLoadingTableViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		177FB33EF2B5FADB39AE2B1123FC3C72 /* Pods_SZLoadingTableViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZLoadingTableViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C2577879F654F3580C2C4C00093E57A /* SZLoadingTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SZLoadingTableViewController-dummy.m"; sourceTree = "<group>"; };
 		23F49F81FC94289ECE1BCA9149D87EC3 /* Pods-SZLoadingTableViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SZLoadingTableViewController_Tests.modulemap"; sourceTree = "<group>"; };
 		276A5FCEFE9CB77A42ADE95C86BD0CBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		298C39ECB130D0160B4777B8B2E1B13C /* SZLoadingTableViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZLoadingTableViewController-umbrella.h"; sourceTree = "<group>"; };
 		2D7EB93DAF6C092596E26FE8305028F2 /* Pods-SZLoadingTableViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SZLoadingTableViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		3AD38BCC628B0D1A991FB227622CADD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425E2FCE7AAB7E38489B38201602837E /* SZLoadingTableViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SZLoadingTableViewController-Private.xcconfig"; sourceTree = "<group>"; };
 		450BA858A0B249617196C819295A4F7A /* Pods-SZLoadingTableViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZLoadingTableViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		474A43769F0A22159C3E757D9EE41497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		48ACD0FD7ED7860F5ACF36BE2F726480 /* Pods-SZLoadingTableViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZLoadingTableViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FD18EC08F8132401A5631CA4DA95DAE /* Pods-SZLoadingTableViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZLoadingTableViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		53014771271F5ABD301F155E3A7A17CA /* Pods-SZLoadingTableViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SZLoadingTableViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6021376F8FF89270D44F850E2F1D6BC4 /* Pods-SZLoadingTableViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZLoadingTableViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7BE9A7B576CDEB1649471A1EF6D2109E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		65CB3C9C3D0D6B3FECF57D6430CADCEE /* SZLoadingTableViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SZLoadingTableViewController-dummy.m"; sourceTree = "<group>"; };
+		67E5FC8FF40901EA06A40E25E4DEB879 /* SZFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SZFooterView.h; sourceTree = "<group>"; };
 		816B4C29DA915E3065CB4B9A9FD82F61 /* Pods-SZLoadingTableViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZLoadingTableViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		859AB0F17226FAE218AD23B642BCF7F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		89F1A08D96BDDFDF5F517DCEE6692CB0 /* Pods-SZLoadingTableViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZLoadingTableViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		9649657397D7D8B8A38FC91FF020B796 /* SZLoadingTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZLoadingTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F079835358BEB36224C853C81C1D0C /* SZLoadingTableViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZLoadingTableViewController-prefix.pch"; sourceTree = "<group>"; };
 		9B3418C83A3AD3B95B37556F93047B09 /* Pods_SZLoadingTableViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZLoadingTableViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42C2AE518B2BDCE1913552BCDA70153 /* SZLoadingTableViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZLoadingTableViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,11 +74,15 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C197CE16CB21F16ACA1F9D5A2D12EE47 /* Pods-SZLoadingTableViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SZLoadingTableViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C8A7E64C7B8B40760093908312416AC8 /* SZLoadingTableViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SZLoadingTableViewController.modulemap; sourceTree = "<group>"; };
+		C97B068A2B131B89892749A5CDA9E3E0 /* SZLoadingTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SZLoadingTableViewController.m; sourceTree = "<group>"; };
 		CEA6F5D04490E066508E76FDA15F6EE3 /* Pods-SZLoadingTableViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SZLoadingTableViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D5CF6FBFB984699125C6426DE5265EE7 /* Pods-SZLoadingTableViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZLoadingTableViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D779499DA5B6729C08695B6DB060CB0A /* SZLoadingTableViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZLoadingTableViewController.xcconfig; sourceTree = "<group>"; };
+		D7AB08266556B3CB4631C5310AE05B48 /* SZLoadingTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SZLoadingTableViewController.h; sourceTree = "<group>"; };
+		D9C06D6C5CB8E057CA74020A1A8DD5B6 /* SZFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SZFooterView.m; sourceTree = "<group>"; };
 		DA86708BD65C39994A2333570FD1059F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F09261BE26C3B3C1A1275DAF61AF1673 /* Pods-SZLoadingTableViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SZLoadingTableViewController_Example.modulemap"; sourceTree = "<group>"; };
+		F0B4ACC092E1A30F8874AD3C536E6BD4 /* SZLoadingTableViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZLoadingTableViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3826BA503FE3215737B1551B8D0F956 /* Pods-SZLoadingTableViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SZLoadingTableViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		F8A6831905BE9234CFFAADC58B155402 /* Pods-SZLoadingTableViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SZLoadingTableViewController_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,11 +111,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BD3B0B323B584210DE1C6EE74C99CE0 /* Frameworks */ = {
+		DCC576D3C4BB486E6655515DA435ABD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D83A83B82FF8BAC5081D1808997B088C /* Foundation.framework in Frameworks */,
+				E1764EFBE6A712E57DF05F11AA64EE95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,10 +131,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		53D0BADDCC8612075E5D87B9ACFFF667 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				67E5FC8FF40901EA06A40E25E4DEB879 /* SZFooterView.h */,
+				D9C06D6C5CB8E057CA74020A1A8DD5B6 /* SZFooterView.m */,
+				D7AB08266556B3CB4631C5310AE05B48 /* SZLoadingTableViewController.h */,
+				C97B068A2B131B89892749A5CDA9E3E0 /* SZLoadingTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				859AB0F17226FAE218AD23B642BCF7F9 /* Foundation.framework */,
+				474A43769F0A22159C3E757D9EE41497 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -147,7 +164,7 @@
 		98BA1F9218140C24CEC4CF1F959B1CE4 /* SZLoadingTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				D0A6C9A8882959D44463256D7616DF81 /* Pod */,
+				FBB06EF09342DB688E0DC09D3B21B8E1 /* Pod */,
 				CEBDE2C4CBD2588F1311A5458A488FFC /* Support Files */,
 			);
 			name = SZLoadingTableViewController;
@@ -198,21 +215,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC7E423C904E9DF9494B8E9D9DDD2B0B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7BE9A7B576CDEB1649471A1EF6D2109E /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				9B3418C83A3AD3B95B37556F93047B09 /* Pods_SZLoadingTableViewController_Example.framework */,
 				177FB33EF2B5FADB39AE2B1123FC3C72 /* Pods_SZLoadingTableViewController_Tests.framework */,
 				A42C2AE518B2BDCE1913552BCDA70153 /* SZLoadingTableViewController.bundle */,
-				9649657397D7D8B8A38FC91FF020B796 /* SZLoadingTableViewController.framework */,
+				F0B4ACC092E1A30F8874AD3C536E6BD4 /* SZLoadingTableViewController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,18 +233,18 @@
 				C8A7E64C7B8B40760093908312416AC8 /* SZLoadingTableViewController.modulemap */,
 				D779499DA5B6729C08695B6DB060CB0A /* SZLoadingTableViewController.xcconfig */,
 				425E2FCE7AAB7E38489B38201602837E /* SZLoadingTableViewController-Private.xcconfig */,
-				1C2577879F654F3580C2C4C00093E57A /* SZLoadingTableViewController-dummy.m */,
+				65CB3C9C3D0D6B3FECF57D6430CADCEE /* SZLoadingTableViewController-dummy.m */,
 				98F079835358BEB36224C853C81C1D0C /* SZLoadingTableViewController-prefix.pch */,
-				298C39ECB130D0160B4777B8B2E1B13C /* SZLoadingTableViewController-umbrella.h */,
+				02187BC8D749DF0D5D7ED881D829632D /* SZLoadingTableViewController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SZLoadingTableViewController";
 			sourceTree = "<group>";
 		};
-		D0A6C9A8882959D44463256D7616DF81 /* Pod */ = {
+		FBB06EF09342DB688E0DC09D3B21B8E1 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				BC7E423C904E9DF9494B8E9D9DDD2B0B /* Classes */,
+				53D0BADDCC8612075E5D87B9ACFFF667 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -259,19 +268,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		82ED0B468696F7F3A7BCE517274F87AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DF9C44B887B6B6B9409709C4BF3B44 /* SZFooterView.h in Headers */,
+				3DE5DB6D3B231762318E14FD3E806E59 /* SZLoadingTableViewController-umbrella.h in Headers */,
+				03A6E9A9642D2C9AC5FBF4C120E646BF /* SZLoadingTableViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB39FB59B964AAA19E483CD259980DF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A0D2A6334F292F148E0A15B923E0B99 /* Pods-SZLoadingTableViewController_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA7F8F4ACDD0BCCB102521918BCAD077 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B67270DA253AAE86BC35944382790F5 /* SZLoadingTableViewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,30 +300,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				B01E2A552BF478A65346D05C8423324A /* PBXTargetDependency */,
+				1D3AD9E620987D32C9403A6449B83D85 /* PBXTargetDependency */,
 			);
 			name = "Pods-SZLoadingTableViewController_Example";
 			productName = "Pods-SZLoadingTableViewController_Example";
 			productReference = 9B3418C83A3AD3B95B37556F93047B09 /* Pods_SZLoadingTableViewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7B9043E151DD42C6327BBFB81D989BC7 /* SZLoadingTableViewController */ = {
+		D3514C36C91929307CF3C4C15DFA866A /* SZLoadingTableViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02BAF2370064F08E8AD9BF36799AD641 /* Build configuration list for PBXNativeTarget "SZLoadingTableViewController" */;
+			buildConfigurationList = 135827568D7EB373F4571C825CA55EE3 /* Build configuration list for PBXNativeTarget "SZLoadingTableViewController" */;
 			buildPhases = (
-				43E9955B780FD65F01860673007F6855 /* Sources */,
-				6BD3B0B323B584210DE1C6EE74C99CE0 /* Frameworks */,
-				3067E82C6A474389F0EC54ABD33AD140 /* Resources */,
-				FA7F8F4ACDD0BCCB102521918BCAD077 /* Headers */,
+				7C3BB513B892DF5DF05BFD1D21579DBC /* Sources */,
+				DCC576D3C4BB486E6655515DA435ABD1 /* Frameworks */,
+				914DBACC40DE1198307DE56771ADD06D /* Resources */,
+				82ED0B468696F7F3A7BCE517274F87AC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CAFAD7BDFD24364161F1FCA5D67D1C0E /* PBXTargetDependency */,
+				CB2A88ABBC3B1EE59869D8ACAD6BE452 /* PBXTargetDependency */,
 			);
 			name = SZLoadingTableViewController;
 			productName = SZLoadingTableViewController;
-			productReference = 9649657397D7D8B8A38FC91FF020B796 /* SZLoadingTableViewController.framework */;
+			productReference = F0B4ACC092E1A30F8874AD3C536E6BD4 /* SZLoadingTableViewController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D6301C40C99A25F6EA525AC6A3ADED43 /* SZLoadingTableViewController-SZLoadingTableViewController */ = {
@@ -343,7 +354,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				97DE4A3670829EFF531E096F3659099B /* PBXTargetDependency */,
+				980FB40ADD972F07C2D045F56C20A4E2 /* PBXTargetDependency */,
 			);
 			name = "Pods-SZLoadingTableViewController_Tests";
 			productName = "Pods-SZLoadingTableViewController_Tests";
@@ -373,18 +384,18 @@
 			targets = (
 				0C81F4CB5ABADD6B96DD15071FC1E44E /* Pods-SZLoadingTableViewController_Example */,
 				DD90EAD750B5A7E9532EA9BAA5371530 /* Pods-SZLoadingTableViewController_Tests */,
-				7B9043E151DD42C6327BBFB81D989BC7 /* SZLoadingTableViewController */,
+				D3514C36C91929307CF3C4C15DFA866A /* SZLoadingTableViewController */,
 				D6301C40C99A25F6EA525AC6A3ADED43 /* SZLoadingTableViewController-SZLoadingTableViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3067E82C6A474389F0EC54ABD33AD140 /* Resources */ = {
+		914DBACC40DE1198307DE56771ADD06D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78992137C83EBD4F5F5420D7F61B7F9 /* SZLoadingTableViewController.bundle in Resources */,
+				DD92298E2B127366F252F89318821C8D /* SZLoadingTableViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,15 +409,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43E9955B780FD65F01860673007F6855 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1428E8455EE1543E67241A11EC669AFC /* ReplaceMe.m in Sources */,
-				88B59FD201B4F5B3BF81BF49CFC70A41 /* SZLoadingTableViewController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		621F020DD34D425827EFE774CC3C7D8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +424,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7C3BB513B892DF5DF05BFD1D21579DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7C47F8E7207CFA20B55C460602EAF8 /* SZFooterView.m in Sources */,
+				E6525F496FB3532D841B6D39ACA53FEB /* SZLoadingTableViewController-dummy.m in Sources */,
+				C86FCFC59727D9DF40CF0FAD231DD06E /* SZLoadingTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D08F3D444F5D0483BD709DC5BEEDEF34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,23 +445,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		97DE4A3670829EFF531E096F3659099B /* PBXTargetDependency */ = {
+		1D3AD9E620987D32C9403A6449B83D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SZLoadingTableViewController;
-			target = 7B9043E151DD42C6327BBFB81D989BC7 /* SZLoadingTableViewController */;
-			targetProxy = 7724C2D5B9411AAD053A9AF0719C4972 /* PBXContainerItemProxy */;
+			target = D3514C36C91929307CF3C4C15DFA866A /* SZLoadingTableViewController */;
+			targetProxy = E4D6BCA9F578ADC01F5296ABDC051EAC /* PBXContainerItemProxy */;
 		};
-		B01E2A552BF478A65346D05C8423324A /* PBXTargetDependency */ = {
+		980FB40ADD972F07C2D045F56C20A4E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SZLoadingTableViewController;
-			target = 7B9043E151DD42C6327BBFB81D989BC7 /* SZLoadingTableViewController */;
-			targetProxy = 8DADF27807539F0E39D3A46061E1AA39 /* PBXContainerItemProxy */;
+			target = D3514C36C91929307CF3C4C15DFA866A /* SZLoadingTableViewController */;
+			targetProxy = 57EB7440398045A4308241EE1EC7414A /* PBXContainerItemProxy */;
 		};
-		CAFAD7BDFD24364161F1FCA5D67D1C0E /* PBXTargetDependency */ = {
+		CB2A88ABBC3B1EE59869D8ACAD6BE452 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SZLoadingTableViewController-SZLoadingTableViewController";
 			target = D6301C40C99A25F6EA525AC6A3ADED43 /* SZLoadingTableViewController-SZLoadingTableViewController */;
-			targetProxy = 19FD5A7A4505667945A68E78F0A36870 /* PBXContainerItemProxy */;
+			targetProxy = D9D3E256794C2A18E464144295685607 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,7 +539,7 @@
 			};
 			name = Debug;
 		};
-		22791345213F1684A81938504858BD20 /* Release */ = {
+		143066E6290BE5D7D040760F592D07FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 425E2FCE7AAB7E38489B38201602837E /* SZLoadingTableViewController-Private.xcconfig */;
 			buildSettings = {
@@ -553,6 +565,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1FD6BF7C7A6338212185531F0028906D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425E2FCE7AAB7E38489B38201602837E /* SZLoadingTableViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SZLoadingTableViewController/SZLoadingTableViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SZLoadingTableViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SZLoadingTableViewController/SZLoadingTableViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SZLoadingTableViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		5EB231C3D8EEE8FACC6BF65901656FDF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -665,33 +704,6 @@
 			};
 			name = Debug;
 		};
-		BE484A81A3DFCF3DC9CA5B50B46A2142 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 425E2FCE7AAB7E38489B38201602837E /* SZLoadingTableViewController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SZLoadingTableViewController/SZLoadingTableViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SZLoadingTableViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SZLoadingTableViewController/SZLoadingTableViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SZLoadingTableViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		DC0F80EF475BE457EB664DE3319B4B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6021376F8FF89270D44F850E2F1D6BC4 /* Pods-SZLoadingTableViewController_Example.debug.xcconfig */;
@@ -724,11 +736,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02BAF2370064F08E8AD9BF36799AD641 /* Build configuration list for PBXNativeTarget "SZLoadingTableViewController" */ = {
+		135827568D7EB373F4571C825CA55EE3 /* Build configuration list for PBXNativeTarget "SZLoadingTableViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE484A81A3DFCF3DC9CA5B50B46A2142 /* Debug */,
-				22791345213F1684A81938504858BD20 /* Release */,
+				1FD6BF7C7A6338212185531F0028906D /* Debug */,
+				143066E6290BE5D7D040760F592D07FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

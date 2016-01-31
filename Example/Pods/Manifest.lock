@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SZLoadingTableViewController: 43f4197ac5debf8566745ce4e721b343b083ad80
+  SZLoadingTableViewController: 049dd33d665704228fd07a03160e95c2b7d84496
 
 COCOAPODS: 0.38.2
