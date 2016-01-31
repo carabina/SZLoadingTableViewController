@@ -2,26 +2,69 @@
 
 ![](https://github.com/zhangxiaolian1991/SZLoadingTableViewController/blob/master/Example/SZLoadingTableViewController/Files/demo.gif)
 
-## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-SZLoadingTableViewController is available through [CocoaPods](http://cocoapods.org). To install
+#Setup with Cocoapods
+* Add ```pod 'SZLoadingTableViewController'``` to your ```Podfile```
+* Run ```pod install```
+* Run ```open App.xcworkspace```CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
-pod "SZLoadingTableViewController"
+### Usage
+
+```@import SZLoadingTableViewController ```  or 
+```#import<SZLoadingTableViewController/SZLoadingTableViewController.h>```
+
+Make your ViewCtroller subClass SZLoadingTableViewController
+
+### Set up Center Loading
+
+## Start Loading
+```objc
+[self startLaoding];
 ```
 
-## Author
+####Swift
+
+```swift
+self.startLoading()
+```
+## Stop Loading
+```objc
+[self stopLoading];
+```
+
+####Swift
+
+```swift
+self.stopLoading()
+```
+
+### Set up Load more
+override superclass method
+```
+#pragma nark -LoadMore
+
+- (BOOL)loadMore {
+if (!self.canLoadMore || ![super loadMore]) {
+return NO;
+} else {
+[self performSelector:@selector(loadMoreData) withObject:nil afterDelay:0];
+return YES;
+}
+}
+
+- (void)loadMoreData {
+[self addData];
+self.canLoadMore = NO;
+[self loadMoreCompleted];
+[self.tableView reloadData];
+}
+```
+
+### Author
 
 Suric Zhang, zhangxiaolian1991@gmail.com
 
-## License
+### License
 
 SZLoadingTableViewController is available under the MIT license:
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
