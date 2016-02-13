@@ -2,7 +2,7 @@
 
 ![](https://github.com/zhangxiaolian1991/SZLoadingTableViewController/blob/master/Example/SZLoadingTableViewController/Files/demo.gif)
 
-#Setup with Cocoapods
+#Setup with CocoaPods
 * Add ```pod 'SZLoadingTableViewController'``` to your ```Podfile```
 * Run ```pod install```
 * Run ```open App.xcworkspace```
