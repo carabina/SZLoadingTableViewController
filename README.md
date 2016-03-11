@@ -2,41 +2,25 @@
 
 ![](https://github.com/zhangxiaolian1991/SZLoadingTableViewController/blob/master/Example/SZLoadingTableViewController/Files/demo.gif)
 
-#Setup with Cocoapods
+#Setup with CocoaPods
 * Add ```pod 'SZLoadingTableViewController'``` to your ```Podfile```
 * Run ```pod install```
-* Run ```open App.xcworkspace```CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+* Run ```open App.xcworkspace```
 
 ### Usage
-
-```@import SZLoadingTableViewController ```  or 
-```#import<SZLoadingTableViewController/SZLoadingTableViewController.h>```
+```@import SZLoadingTableViewController ```  or ```#import<SZLoadingTableViewController/SZLoadingTableViewController.h>```
 
 Make your ViewCtroller subClass SZLoadingTableViewController
 
 ### Set up Center Loading
 
-## Start Loading
-```objc
-[self startLaoding];
-```
+#### Start Loading
+objc ```[self startLaoding]```
+Swift ```self.startLoading()```
 
-####Swift
-
-```swift
-self.startLoading()
-```
-## Stop Loading
-```objc
-[self stopLoading];
-```
-
-####Swift
-
-```swift
-self.stopLoading()
-```
+#### Stop Loading
+objc ```[self stopLoading]``` 
+Swift ```self.stopLoading()```
 
 ### Set up Load more
 override superclass method
